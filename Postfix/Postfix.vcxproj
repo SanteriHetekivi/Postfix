@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Postfix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Postfix.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PostFixCalculator_or_BracketMatchingProgram.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0DA4CC8C-6E78-4152-8452-59C11E5504A9}</ProjectGuid>
     <RootNamespace>Postfix</RootNamespace>
@@ -117,16 +127,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Postfix.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\Postfix.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\PostFixCalculator_or_BracketMatchingProgram.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
